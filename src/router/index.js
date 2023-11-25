@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
-import {USER_CREATE, USER_EDIT, USER_DETAIL_ENDPOINT} from '../constants/api'
+import {USER_CREATE, USER_EDIT, USER_DETAIL_ENDPOINT} from '@/constants/api'
 import UserView from "../views/users/UserView.vue";
 import UserCreateView from "../views/users/UserCreateView.vue";
 import UserEditView from "../views/users/UserEditView.vue";
