@@ -37,7 +37,7 @@
                 :type="showPassword ? 'text' : 'password'"
                 v-model="model.userDetail.user.password"
                 class="form-control"
-                @blur="validatePassword"
+                @input="validatePassword"
             />
             <button
                 class="btn btn-outline-secondary"
